@@ -1,0 +1,36 @@
+.wrapper{
+	text-align: center;
+	padding: 20px 40px;
+	font-size: 40px;
+	font-weight: bold;
+	p{
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	.modal {
+		position: absolute;
+		z-index: 20;
+		left: 770px;
+		border-radius: 20px;
+		background-color: #fff;
+		color: #1b8fa4;
+		p{
+			margin: 10px 0;
+			padding: 20px;
+			width: 350px;
+			cursor: pointer;
+			transition:background-color 0.5s ;
+		}
+		p:hover{
+			background-color: #1b8fa4;
+			color: #fff;
+		}
+		.active{
+			background-color: #1b8fa4;
+			color: #fff;
+		}
+	}
+	.hidden{
+		display: none;
+	}
+}

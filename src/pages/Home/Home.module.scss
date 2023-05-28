@@ -1,0 +1,28 @@
+.wrapper {
+  color: #fff;
+	padding: 20px;
+	.date{
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+		font-size: 20px;
+	}
+
+	.degrees{
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		p{
+			font-size: 100px;
+		}
+	}
+	.body{
+		z-index: 2;
+		position: absolute;
+		top: 300px;
+		left: 0;
+		right: 0;
+	}
+	
+}
